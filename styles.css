@@ -1,0 +1,79 @@
+/* Reset default styles */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.25rem; /* 36px */
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff6f00; /* Bright orange */
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.125rem; /* 18px */
+  color: #ff6f00; /* Bright orange */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem; /* 12px */
+  margin-top: 5px;
+  border: 2px solid #ff6f00; /* Bright orange */
+  border-radius: 5px;
+  background-color: #292929; /* Dark gray */
+  color: #ffffff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff6f00; /* Bright orange */
+  box-shadow: 0 0 5px #ff6f00; /* Bright orange */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 0.75rem; /* 12px */
+  text-align: left;
+}
+
+th {
+  background-color: #ff6f00; /* Bright orange */
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #333333; /* Dark gray */
+}
